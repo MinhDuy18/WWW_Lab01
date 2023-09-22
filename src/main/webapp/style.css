@@ -1,0 +1,132 @@
+#container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#formLogin{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border: 1px solid #d4d3d9;
+    border-radius: 20px;
+    text-align: center;
+    background-color: navajowhite;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(128, 128, 128);
+    padding-left: 20px;
+}
+#loginbtn{
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #119807;
+    color: #ffffff;
+    font-size: 20px;
+}
+#loginbtn:hover{
+    font-size: 20px;
+    pointer-events: stroke;
+}
+
+body{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.menu {
+    background-color: #03ab18;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    background-color: #724dff;
+    border-radius: 5px;
+}
+
+
+/* CSS cho bảng */
+.container-dashboard {
+    margin: 20px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*Form add account*/
+#formAddAcc{
+    border: none;
+    background-color: inherit;
+    margin-left: 150px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#accountID #email #fullName #phone #password{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#addBtn {
+    background-color: #03ab18;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#addBtn:hover{
+    background-color: #119807;
+}
